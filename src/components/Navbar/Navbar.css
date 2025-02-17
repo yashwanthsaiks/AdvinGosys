@@ -1,0 +1,32 @@
+.navbar{
+  height: 80px;
+  background-color: rgba(1, 0, 0, 0.892);
+  color: white;
+}
+.navbar h1{
+  padding: 10px 20px;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ 
+}
+
+.navbar li{
+  list-style: none;
+  margin: 0 1.3rem;
+  margin-bottom: 5%;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar li:hover{
+  cursor: pointer;
+ color: rgba(231, 227, 227, 0.892);
+  
+
+}

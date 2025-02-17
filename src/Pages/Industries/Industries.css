@@ -1,0 +1,28 @@
+
+.Industries{
+    background-color: black;
+    height: 640px;
+}
+.Industries-heading{
+    color: white;
+    font-size: 30px;
+    padding: 50px 50px;
+}
+.Industries-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.Industries-box{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 18px -8px 28px -25px rgb(91, 90, 90);
+
+}

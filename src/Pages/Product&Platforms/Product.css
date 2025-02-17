@@ -1,0 +1,21 @@
+.container-four {
+    padding: 50px 50px;
+    background-color: white;
+  }
+  
+.container-four-a{
+    margin-top: 20px;
+    padding: 50px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.container-four-a p{
+    font-size: 20px;
+    
+}
+.container-four-a:hover{
+    border-bottom: 2px solid rgb(20, 20, 21);
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(240, 239, 239);
+    box-shadow: 18px -8px 28px -25px rgb(175, 175, 175);
+}

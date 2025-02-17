@@ -1,0 +1,31 @@
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  .back-button{
+    padding: 20px 40px;
+  }
+  .back-button button {
+    padding: 10px 20px;
+    height: 5%;
+    width: 80px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(240, 235, 235);
+    transition: background-color 0.85s ease-in-out;
+  }
+  .back-button button:hover {
+    background-color: black;
+    color: white;
+  }
